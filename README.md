@@ -1,5 +1,7 @@
 # react-native typescript boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/burtek/react-native-typescript-boilerplate.svg)](https://greenkeeper.io/)
+
 - [Getting started](#getting-started)
 - [Testing](#testing)
 - [Pre-commit](#pre-commit)
