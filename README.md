@@ -61,7 +61,9 @@ There are few extensions recommendations from boilerplate's author, as well as s
 
 ## What's next?
 
-With Babel 7's ability to understand Typescript, I will probably be moving this from using `tsc` and `react-native-typescript-transformer` towards using Babel 7 on it's own. There is still https://github.com/expo/expo/issues/2164 to keep in mind.
+There is an option to use `react-native-typescript-transformer` rather than running `tsc -w` in background, yet I wasn't able to get that to work. Should you have more luck with that, a PR would be highly appreciated.
+
+Apart from that, with Babel 7's ability to understand Typescript, it would be best to move this repo towards using Babel 7 on it's own. There is still https://github.com/expo/expo/issues/2164 to keep in mind.
 
 If you can provide a working fork of this repo using babel's capabilities rather than `tsc` and the transformer mentioned above, feel free to send me a PR and I'd be more than happy to merge it (ofc not before testing it myself).
 

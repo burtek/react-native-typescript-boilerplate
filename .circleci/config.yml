@@ -15,6 +15,9 @@ jobs:
             - yarn-packages-{{ .Branch }}-
             - yarn-packages-master-
       - run:
+          name: Install expo-cli react-native-cli globally
+          command: yarn global add expo-cli react-native-cli
+      - run:
           name: Install Dependencies
           command: yarn install
       - save_cache:
