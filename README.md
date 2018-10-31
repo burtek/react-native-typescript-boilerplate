@@ -70,3 +70,7 @@ If you can provide a working fork of this repo using babel's capabilities rather
 ## PRs
 
 If you feel there is something I missed in this boilerplate - either an issue or a feature, feel free to create a PR with proposal.
+
+### Changing dependencies
+
+If you're somehow modifying dependencies, make sure both `yarn.lock` and `package-lock.json` are in sync by using [`synp` tool](https://www.npmjs.com/package/synp)
