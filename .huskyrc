@@ -1,0 +1,5 @@
+{
+    "hooks": {
+        "pre-commit": "yarn lint && concurrently -n test,build \"yarn test\" \"yarn build\""
+    }
+}

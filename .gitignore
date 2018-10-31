@@ -1,0 +1,13 @@
+# np and yarn
+node_modules/
+npm-debug.*
+yarn-error.log
+
+# expo
+.expo/
+
+# typescript
+build/
+
+# jest
+.jest/

@@ -1,0 +1,41 @@
+{
+  "name": "react-native-typescript-boilerplate",
+  "description": "expo/react-native typescript boilerplate",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "jest",
+    "compile": "tsc",
+    "lint": "tslint src/**/*.{ts,tsx} __tests__/**/*.{ts,tsx} --exclude src/**/*.d.ts --fix",
+    "clean": "rimraf build",
+    "build": "yarn clean && yarn compile",
+    "watch": "yarn clean && yarn compile -w",
+    "watchAndRunAndroid": "concurrently -n tsc,expo \"yarn watch\" \"yarn android\"",
+    "watchAndRunIOS": "concurrently -n tsc,expo \"yarn watch\" \"yarn ios\"",
+    "watchAndStart": "concurrently -n tsc,expo \"yarn watch\" \"yarn start\""
+  },
+  "dependencies": {
+    "expo": "^30.0.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz"
+  },
+  "devDependencies": {
+    "@types/expo": "^30.0.0",
+    "@types/jest": "^23.3.8",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-native": "^0.57.7",
+    "@types/react-test-renderer": "^16.0.3",
+    "concurrently": "^4.0.1",
+    "husky": "^1.1.2",
+    "jest-expo": "^30.0.0",
+    "react-native-typescript-transformer": "^1.2.10",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.4"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "streetsidesoftware.code-spell-checker",
+        "naumovs.color-highlight",
+        "fabiospampinato.vscode-commands",
+        "ms-vscode.typescript-javascript-grammar",
+        "ryuta46.multi-command",
+        "christian-kohler.path-intellisense",
+        "esbenp.prettier-vscode",
+        "vsmobile.vscode-react-native",
+        "richie5um2.vscode-sort-json",
+        "fabiospampinato.vscode-todo-plus",
+        "eg2.tslint",
+        "infeng.vscode-react-typescript"
+    ]
+}

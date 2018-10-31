@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "importHelpers": true,
+    "jsx": "react-native",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "skipLibCheck": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./build/dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "preserveConstEnums": true
+  },
+  "types": [
+    "react",
+    "react-native",
+    "jest"
+  ],
+  "exclude": [
+    ".jest",
+    "assets",
+    "build",
+    "node_modules",
+    "__tests__"
+  ],
+  "compileOnSave": true
+}

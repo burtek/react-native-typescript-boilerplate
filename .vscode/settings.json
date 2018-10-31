@@ -1,0 +1,27 @@
+{
+    "prettier.eslintIntegration": true,
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.tslintIntegration": true,
+    "prettier.bracketSpacing": true,
+    "tslint.enable": true,
+    "eslint.enable": false,
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.format-imports",
+            "interval": 200,
+            "sequence": [
+                "editor.action.organizeImports",
+                "editor.action.formatDocument"
+            ]
+        }
+    ],
+    "commands.commands": [
+        {
+            "text": "$(list-ordered) Organize",
+            "command": "multiCommand.format-imports",
+            "tooltip": "Organize imports & format document"
+        }
+    ]
+}
