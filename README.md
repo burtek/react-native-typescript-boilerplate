@@ -21,9 +21,11 @@ rm -rf react-native-typescript-boilerplate/.git
 # you may want to keep this as a boilerplate config
 rm -rf react-native-typescript-boilerplate/.circleci
 ```
+> you can also download the latest boilerplate release from https://github.com/burtek/react-native-typescript-boilerplate/releases/latest
+
 3. Remove `package-lock.json`  or `yarn.lock`, whichever you feel you aren't gonna use
-3. Run `yarn` or `npm install` as per your choice
-4. Start coding!
+4. Run `yarn` or `npm install` as per your choice
+5. Start coding!
 
 ## Testing
 
